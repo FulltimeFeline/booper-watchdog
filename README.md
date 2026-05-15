@@ -31,7 +31,7 @@ duplicates.
 One-liner, run on the server:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/booper-app/booper-watchdog/main/install-watchdog.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/fulltimefeline/booper-watchdog/main/install-watchdog.sh | sudo bash
 ```
 
 Or paste-from-app: open Booper, tap a server, tap *Install Watchdog*.
