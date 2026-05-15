@@ -121,7 +121,7 @@ Don't trust `beepboop.fulltimefeline.com`? Run your own. The relay is
 ~150 lines, open source, dockerized:
 
 ```bash
-git clone https://github.com/booper-app/booper-relay
+git clone https://github.com/fulltimefeline/booper-relay
 cd booper-relay
 docker compose up -d
 ```
