@@ -4,10 +4,10 @@ A tiny systemd-timer-driven health watchdog for any Linux host. Pings your
 phone via APNs whenever the box goes off the rails — disk full, service
 crashed, load spike — and again when it recovers. No daemon, no Go binary,
 no third-party endpoint. Pure bash plus one curl call to the open-source
-[booper-relay](https://github.com/booper-app/booper-relay).
+[booper-relay](https://github.com/fulltimefeline/booper-relay).
 
 Designed as the optional push backend for the
-[Booper iOS app](https://apps.apple.com/app/booper/id0000000000),
+Booper iOS app,
 which can't run background SSH while it's closed (iOS doesn't allow it),
 so the watchdog runs the polling on the server side and only wakes your
 phone when something has actually changed state.
